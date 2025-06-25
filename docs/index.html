@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,64 +13,65 @@
 
         body {
             font-family: 'Georgia', 'Times New Roman', serif;
-            line-height: 1.6;
+            line-height: 1.4;
             color: #333;
             background-color: #fafafa;
-            padding: 40px 20px;
+            padding: 20px 10px;
+            font-size: 12px;
         }
 
         .container {
             max-width: 800px;
             margin: 0 auto;
             background: white;
-            padding: 60px;
+            padding: 30px;
             box-shadow: 0 0 20px rgba(0,0,0,0.1);
         }
 
         .header {
             text-align: center;
-            margin-bottom: 50px;
+            margin-bottom: 25px;
             border-bottom: 1px solid #eee;
-            padding-bottom: 40px;
+            padding-bottom: 20px;
         }
 
         .name {
-            font-size: 2.5em;
+            font-size: 2em;
             font-weight: 300;
-            letter-spacing: 3px;
-            margin-bottom: 10px;
+            letter-spacing: 2px;
+            margin-bottom: 8px;
             color: #2c3e50;
         }
 
         .job-title {
-            font-size: 1.1em;
+            font-size: 0.9em;
             color: #7f8c8d;
             font-weight: 300;
             letter-spacing: 1px;
             text-transform: uppercase;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
         .contact-info {
-            font-size: 0.9em;
+            font-size: 0.8em;
             color: #666;
         }
 
         .contact-info span {
-            margin: 0 15px;
+            margin: 0 10px;
         }
 
         .section {
-            margin-bottom: 40px;
+            margin-bottom: 25px;
         }
 
         .section-title {
-            font-size: 1.2em;
+            font-size: 1em;
             font-weight: 400;
-            letter-spacing: 2px;
+            letter-spacing: 1px;
             text-transform: uppercase;
             color: #2c3e50;
-            margin-bottom: 25px;
+            margin-bottom: 15px;
             text-align: center;
             position: relative;
         }
@@ -78,40 +79,40 @@
         .section-title::after {
             content: '';
             display: block;
-            width: 50px;
+            width: 40px;
             height: 1px;
             background-color: #3498db;
-            margin: 10px auto;
+            margin: 8px auto;
         }
 
         .profile-summary {
             text-align: justify;
-            font-size: 1em;
-            line-height: 1.8;
+            font-size: 0.9em;
+            line-height: 1.5;
             color: #555;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
         }
 
         .skills-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 30px;
-            margin-bottom: 20px;
+            gap: 20px;
+            margin-bottom: 15px;
         }
 
         .skill-category h4 {
-            font-size: 1em;
+            font-size: 0.85em;
             font-weight: 600;
             color: #2c3e50;
-            margin-bottom: 15px;
+            margin-bottom: 8px;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 0.5px;
         }
 
         .skill-list {
-            font-size: 0.95em;
+            font-size: 0.8em;
             color: #666;
-            line-height: 1.8;
+            line-height: 1.4;
         }
 
         .skill-list strong {
@@ -125,41 +126,41 @@
         }
 
         .experience-item {
-            margin-bottom: 35px;
+            margin-bottom: 20px;
             border-left: 2px solid #ecf0f1;
-            padding-left: 25px;
+            padding-left: 20px;
             position: relative;
         }
 
         .experience-item::before {
             content: '';
             position: absolute;
-            left: -6px;
-            top: 5px;
-            width: 10px;
-            height: 10px;
+            left: -5px;
+            top: 3px;
+            width: 8px;
+            height: 8px;
             background-color: #3498db;
             border-radius: 50%;
         }
 
         .position-title {
-            font-size: 1.1em;
+            font-size: 0.95em;
             font-weight: 600;
             color: #2c3e50;
-            margin-bottom: 5px;
+            margin-bottom: 3px;
         }
 
         .company-date {
-            font-size: 0.9em;
+            font-size: 0.8em;
             color: #7f8c8d;
-            margin-bottom: 15px;
+            margin-bottom: 10px;
             font-style: italic;
         }
 
         .job-description {
             color: #555;
-            font-size: 0.95em;
-            line-height: 1.7;
+            font-size: 0.8em;
+            line-height: 1.4;
         }
 
         .job-description ul {
@@ -168,9 +169,9 @@
         }
 
         .job-description li {
-            margin-bottom: 8px;
+            margin-bottom: 5px;
             position: relative;
-            padding-left: 20px;
+            padding-left: 15px;
         }
 
         .job-description li::before {
@@ -182,56 +183,68 @@
         }
 
         .education-item {
-            margin-bottom: 25px;
+            margin-bottom: 15px;
         }
 
         .degree {
-            font-size: 1.05em;
+            font-size: 0.9em;
             font-weight: 600;
             color: #2c3e50;
         }
 
         .institution {
-            font-size: 0.95em;
+            font-size: 0.8em;
             color: #7f8c8d;
             font-style: italic;
         }
 
         .thesis {
-            font-size: 0.9em;
+            font-size: 0.75em;
             color: #555;
-            margin-top: 8px;
-            line-height: 1.6;
+            margin-top: 5px;
+            line-height: 1.3;
         }
 
-        @media (max-width: 768px) {
-            .container {
-                padding: 30px;
-            }
-            
-            .name {
-                font-size: 2em;
-            }
-            
-            .skills-grid {
-                grid-template-columns: 1fr;
-                gap: 20px;
-            }
-            
-            .contact-info {
-                font-size: 0.8em;
-            }
+        .compact-section {
+            margin-bottom: 15px;
+        }
+
+        .compact-section .profile-summary {
+            font-size: 0.8em;
+            line-height: 1.4;
+            margin-bottom: 10px;
         }
 
         @media print {
             body {
                 background: white;
                 padding: 0;
+                font-size: 11px;
             }
             
             .container {
                 box-shadow: none;
                 padding: 20px;
+                max-width: none;
+            }
+
+            .section {
+                margin-bottom: 20px;
+            }
+
+            .experience-item {
+                margin-bottom: 15px;
+            }
+
+            .page-break {
+                page-break-before: avoid;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .skills-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
             }
         }
     </style>
@@ -246,14 +259,14 @@
                 <span>|</span>
                 <span>nicola.chimenti.work@gmail.com</span>
                 <span>|</span>
-                <span>Viareggio, Italia</span>
+                <span>Viareggio, Italy</span>
             </div>
         </header>
 
         <section class="section">
             <h2 class="section-title">Profile Summary</h2>
             <div class="profile-summary">
-                Laureando in Gestione di Impresa con specializzazione in Economia Digitale, combino competenze in scienze economiche e finanziarie con expertise tecnica. Oltre 5 anni di esperienza nello sviluppo di algoritmi di trading quantitativi e sistemi di analisi finanziaria automatizzati. Titolare di ditta individuale specializzata in consulenza economico-finanziaria, analisi aziendale e sviluppo di soluzioni software per il settore finance. Competenze nell'analisi macroeconomica, valutazione di investimenti, gestione del rischio finanziario e trasformazione di modelli economici teorici in applicazioni algoritmiche pratiche per mercati reali.
+                Final-year Business Management university student specializing in Digital Economics, combining expertise in economic and financial sciences with technical skills. Over 5 years of experience developing quantitative trading algorithms and automated financial analysis systems. Sole proprietor specializing in financial consulting, business analysis, and software development for finance sector. Skilled in macroeconomic analysis, investment evaluation, financial risk management, and transforming theoretical economic models into practical algorithmic applications.
             </div>
         </section>
 
@@ -261,15 +274,15 @@
             <h2 class="section-title">Core Competencies</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h4>Competenze Economico-Finanziarie</h4>
+                    <h4>Economic-Financial Skills</h4>
                     <div class="skill-list">
-                        Analisi Macroeconomica | Financial Modeling | Valutazione Investimenti | Gestione del Rischio | Analisi Mercati Finanziari | Portfolio Theory | Econometria Applicata | Corporate Finance | Analisi di Bilancio | Due Diligence Finanziaria
+                        Macroeconomic Analysis | Financial Modeling | Investment Evaluation | Risk Management | Financial Market Analysis | Portfolio Theory | Applied Econometrics | Corporate Finance | Financial Statement Analysis | Financial Due Diligence
                     </div>
                 </div>
                 <div class="skill-category">
                     <h4>Business Analysis & Strategy</h4>
                     <div class="skill-list">
-                        Analisi KPI Aziendali | Business Intelligence | Valutazione Fattibilità Progetti | Strategic Planning | Financial Planning & Analysis | Cost-Benefit Analysis | Market Research | Performance Measurement | Process Optimization
+                        Business KPI Analysis | Business Intelligence | Project Feasibility Assessment | Strategic Planning | Financial Planning & Analysis | Cost-Benefit Analysis | Market Research | Performance Measurement | Process Optimization
                     </div>
                 </div>
             </div>
@@ -277,7 +290,7 @@
                 <div class="skill-category">
                     <h4>Quantitative & Technical Skills</h4>
                     <div class="skill-list">
-                       Python (Pandas, NumPy, Scipy) | R Studio | MQL4/MQL5 | Statistical Analysis | Time Series Analysis | SQL | Excel Financial Modeling | VBA | Algorithmic Trading
+                       Python (Pandas, NumPy, Scipy) | R Studio | MQL4/MQL5 | Statistical Analysis | Time Series Analysis | SQL | Excel Financial Modeling | VBA | Algorithmic Trading | Mean Reversion Strategies | Volatility Trading | Inter-market Correlation Analysis
                     </div>
                 </div>
                 <div class="skill-category">
@@ -293,20 +306,20 @@
             <h2 class="section-title">Online Presence</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h4>Profili Professionali</h4>
+                    <h4>Professional Profiles</h4>
                     <div class="skill-list">
-                        <strong>Fiverr:</strong> https://www.fiverr.com/sellers/teknonicola<br>
-                        <em>30+ recensioni positive per servizi di sviluppo software finanziario</em> <br>
-                        <strong>LinkedIn:</strong> https://www.linkedin.com/in/nicolachimenti
+                        <strong>Fiverr:</strong> fiverr.com/sellers/teknonicola<br>
+                        <em>30+ positive reviews for financial software development</em><br>
+                        <strong>LinkedIn:</strong> linkedin.com/in/nicolachimenti
                     </div>
                 </div>
                 <div class="skill-category">
-                    <h4>Portfolio Tecnico</h4>
+                    <h4>Technical Portfolio</h4>
                     <div class="skill-list">
-                        <strong>GitHub:</strong> https://github.com/TeknoTrader<br>
-                        <em>Web app Python per analisi economico-finanziarie, gestione del tempo ed alcuni piccoli progetti</em><br>
-                        <strong>MQL5:</strong> https://www.mql5.com/it/users/teknotrader<br>
-                        <em>Software di trading quantitativi distribuiti in 100+ paesi</em>
+                        <strong>GitHub:</strong> github.com/TeknoTrader<br>
+                        <em>Python web apps for financial-economic analysis</em><br>
+                        <strong>MQL5:</strong> mql5.com/en/users/teknotrader<br>
+                        <em>Trading software distributed in 100+ countries</em>
                     </div>
                 </div>
             </div>
@@ -314,30 +327,45 @@
 
         <section class="section">
             <h2 class="section-title">Work Experience</h2>
-            
+
             <div class="experience-item">
-                <h3 class="position-title">Founder & Financial Technology Consultant</h3>
-                <div class="company-date">Ditta Individuale | Italia | 2022 - Presente | VAT Code: 02674000464</div>
+                <h3 class="position-title">Proprietary Trader</h3>
+                <div class="company-date">MyForexFunds, FundedNext, City Traders Imperium | 2021 - 2024</div>
                 <div class="job-description">
                     <ul>
-                        <li>Sviluppo di soluzioni software personalizzate per analisi economico-finanziarie e trading quantitativo utilizzando Python, R e MQL4/5</li>
-                        <li>Consulenza specializzata in modellazione finanziaria, valutazione rischi e implementazione di strategie di investimento algoritmiche</li>
-                        <li>Analisi approfondita di KPI aziendali, business intelligence e valutazione economica della fattibilità di progetti di investimento</li>
-                        <li>Due diligence finanziaria e analisi di performance per aziende clienti con focus su ottimizzazione dei processi economici</li>
-                        <li>30+ recensioni positive su piattaforme internazionali per servizi di consulenza finanziaria e sviluppo software</li>
+                        <li>Successfully passed evaluation phases and managed funded trading accounts for multiple proprietary trading firms over 3 years</li>
+                        <li>Developed and implemented hybrid trading strategies combining discretionary analysis (fundamental analysis as filter, price action as operational trigger) and algorithmic approaches</li>
+                        <li>Specialized in algorithmic trading strategies based on news releases, mean-reverting properties of FOREX markets and volatility indices (VIX), volatility breakout strategies on equity markets</li>
+                        <li>Used often spread trading strategies exploiting inter-market correlations to reduce portfolio volatility and identify arbitrage opportunities through market misalignments</li>
+                        <li>Advanced risk management strategies involved</li>
+                        <li>Currently resuming professional trading activity with personal accounts, applying refined strategies developed during prop trading experience</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="experience-item">
+                <h3 class="position-title">Founder & Financial Technology Consultant</h3>
+                <div class="company-date">Sole Proprietorship | Italy | 2022 - Present | VAT: 02674000464</div>
+                <div class="job-description">
+                    <ul>
+                        <li>Developing customized software solutions for financial-economic analysis and quantitative trading using Python, R, and MQL4/5</li>
+                        <li>Specialized consulting in financial modeling, risk evaluation, and implementation of algorithmic investment strategies</li>
+                        <li>Business KPI analysis, business intelligence, and economic evaluation of investment projects</li>
+                        <li>Financial due diligence and performance analysis for client companies</li>
+                        <li>30+ positive reviews on international platforms for financial consulting services</li>
                     </ul>
                 </div>
             </div>
 
             <div class="experience-item">
                 <h3 class="position-title">Quantitative Research Developer</h3>
-                <div class="company-date">GitHub & MQL5 Community | 2021 - Presente</div>
+                <div class="company-date">GitHub & MQL5 Community | 2021 - Present</div>
                 <div class="job-description">
                     <ul>
-                        <li>Sviluppo e pubblicazione di algoritmi di trading quantitativi open source con focus su analisi econometrica e gestione del rischio</li>
-                        <li>Creazione di web applications Python per analisi macroeconomiche e financial data visualization utilizzate dalla community internazionale</li>
-                        <li>Pubblicazione di software di trading quantitativi su MQL5 marketplace con distribuzione internazionale in oltre 100 paesi</li>
-                        <li>Contribuzione attiva alla community finanziaria open source con progetti di econometria applicata e analisi quantitativa</li>
+                        <li>Developing open-source quantitative trading algorithms focused on econometric analysis and risk management</li>
+                        <li>Creating Python web applications for macroeconomic analysis and financial data visualization</li>
+                        <li>Publishing quantitative trading software on MQL5 marketplace with distribution in 100+ countries</li>
+                        <li>Active contributor to open-source financial community with applied econometrics projects</li>
                     </ul>
                 </div>
             </div>
@@ -345,40 +373,34 @@
 
         <section class="section">
             <h2 class="section-title">Education</h2>
-            
+
             <div class="education-item">
-                <div class="degree">Laurea in Gestione di Impresa - Indirizzo Economia Digitale</div>
-                <div class="institution">Universitas Mercatorum | Italia | Esami completati, proclamazione prevista Luglio 2025</div>
-                <div class="institution"><em>Focus: Corporate Finance, Econometria, Business Intelligence, Digital Economics, Financial Markets e Diritto</em></div>
-                <div class="thesis"><strong>Tesi:</strong> "Metodi Quantitativi e Applicazioni per i Big Data" - Analisi quantitativa per lo sviluppo e validazione di una strategia di investimento basata sulla correlazione tra tassi di interesse ed indici azionari (S&P500, implementazione strategie quantitative in R)</div>
+                <div class="degree">Bachelor's Degree in Business Management - Digital Economics Track</div>
+                <div class="institution">Universitas Mercatorum | Italy | Graduation expected July 2025</div>
+                <div class="thesis"><strong>Thesis:</strong> "Quantitative Methods for Big Data" - Quantitative analysis for investment strategy development based on correlation between interest rates and stock indices (S&P500, implemented in R)</div>
             </div>
-            
+
             <div class="education-item">
-                <div class="degree">Diploma di Liceo Scientifico - Indirizzo Scienze Applicate</div>
-                <div class="institution">Liceo Scientifico Barsanti e Matteucci | Italia | 2020</div>
-                <div class="institution"><em>Base solida in matematica, principi base di statistica e sviluppo del metodo scientifico</em></div>
+                <div class="degree">High School Diploma in Applied Sciences</div>
+                <div class="institution">Liceo Scientifico Barsanti e Matteucci | Italy | 2020</div>
             </div>
         </section>
 
-        <section class="section">
-            <h2 class="section-title">Languages</h2>
+        <section class="compact-section">
+            <h2 class="section-title">Languages & Interests</h2>
             <div class="skills-grid">
                 <div class="skill-category">
-                    <h4>Competenze Linguistiche</h4>
+                    <h4>Languages</h4>
                     <div class="skill-list">
-                        <strong>Italiano:</strong> Lingua madre<br>
-                        <strong>Inglese:</strong> B2<br>
-                        <strong>Russo:</strong> B1<br>
-                        <strong>Spagnolo:</strong> A2
+                        <strong>Italian:</strong> Native | <strong>English:</strong> B2 | <strong>Russian:</strong> B1 | <strong>Spanish:</strong> A2
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <section class="section">
-            <h2 class="section-title">Interessi</h2>
-            <div class="profile-summary">
-                Analisi macroeconomica e policy monetaria | Financial markets research | Behavioral finance | Econometria applicata ai mercati finanziari | Sviluppo di strategie quantitative | Scacchi competitivi (3 campionati nazionali - sviluppo pensiero strategico) | Kick Boxing agonistico (disciplina e gestione performance sotto pressione) | Algorithmic problem solving (LeetCode)
+                <div class="skill-category">
+                    <h4>Key Interests</h4>
+                    <div class="skill-list">
+                        Macroeconomic Analysis | Behavioral Finance | Applied Econometrics | Competitive Chess (3 national championships) | Kick Boxing | Algorithmic Problem Solving
+                    </div>
+                </div>
             </div>
         </section>
     </div>
